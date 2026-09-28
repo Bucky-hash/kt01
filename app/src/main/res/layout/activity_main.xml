@@ -10,17 +10,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="THÔNG TIN SINH VIÊN"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:textStyle="bold"
-        android:layout_marginBottom="16dp"/>
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp" />
 
-    <TextView android:id="@+id/tvMssv" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:layout_marginBottom="8dp"/>
-    <TextView android:id="@+id/tvHoTen" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:layout_marginBottom="8dp"/>
-    <TextView android:id="@+id/tvLop" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:layout_marginBottom="8dp"/>
-    <TextView android:id="@+id/tvTuoi" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:layout_marginBottom="8dp"/>
-    <TextView android:id="@+id/tvDiem" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:layout_marginBottom="8dp"/>
-    <TextView android:id="@+id/tvTrangThai" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
-    <TextView android:id="@+id/tvXepLoai" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:textStyle="bold"/>
+    <TextView android:id="@+id/tvId" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:layout_marginBottom="8dp" />
+    <TextView android:id="@+id/tvName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:layout_marginBottom="8dp" />
+    <TextView android:id="@+id/tvClass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:layout_marginBottom="8dp" />
+    <TextView android:id="@+id/tvAge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:layout_marginBottom="8dp" />
+    <TextView android:id="@+id/tvScore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:layout_marginBottom="8dp" />
+    <TextView android:id="@+id/tvStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:textStyle="bold" android:layout_marginBottom="8dp" />
+    <TextView android:id="@+id/tvRank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="16sp" android:textStyle="bold" />
 
 </LinearLayout>
-
